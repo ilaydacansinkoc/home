@@ -1,0 +1,22 @@
+.header {
+  width: 100vw;
+  height: 64px;
+  box-shadow: 0 2px 4px 0 rgba(209, 209, 209, 0.5);
+  background-color: #fafafa;
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 2px;
+  .header__title {
+    outline: none;
+    background-color: #fafafa;
+    border: none;
+    font-size: 30px;
+    font-family: AnnieUseYourTelescope-Regular, sans-serif;
+  }
+  .header__title--active {
+    border-bottom: 2px solid #7577e3;
+  }
+  .header__title--active:hover {
+    border-bottom-color: #29367e;
+  }
+}
