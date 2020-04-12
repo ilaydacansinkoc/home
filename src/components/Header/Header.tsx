@@ -1,29 +1,28 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Header.scss';
+import { Link } from 'react-scroll';
 
-const Header: React.FC<{}> = () => {
-  const [clickedIndex, setClickedIndex] = useState<number>(-1);
-  const titles = [
-    'About Me',
-    'Career',
-    'Education',
-    'Skills',
-    'Interests',
-    'Contact',
-  ];
+interface IHeader {
+  titles: any;
+}
+
+const Header: React.FC<IHeader> = ({ titles }) => {
+  //const [clickedIndex, setClickedIndex] = useState<number>(0);
 
   return (
     <div className='header'>
-      {titles.map((title: string, index: number) => {
+      {titles.map((title: any, index: number) => {
         return (
-          <button
-            className={`header__title ${
-              clickedIndex === index ? 'header__title--active' : ''
-            }`}
-            onClick={() => {
-              setClickedIndex(index);
-            }}>
-            {title}
+          <button className='header__title' key={index}>
+            <Link
+              activeClass='active'
+              to={title.id}
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}>
+              {title.title}
+            </Link>
           </button>
         );
       })}
