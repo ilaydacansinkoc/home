@@ -1,0 +1,58 @@
+.App {
+  height: 100vh;
+}
+
+body {
+  background: linear-gradient(-45deg, #e73c7e, #23a6d5);
+  background-size: 600% 600%;
+
+  -webkit-animation: bganim 45s ease infinite;
+  -moz-animation: bganim 45s ease infinite;
+  -o-animation: bganim 45s ease infinite;
+  animation: bganim 45s ease infinite;
+}
+
+@-webkit-keyframes bganim {
+  0% {
+    background-position: 10% 0%;
+  }
+  50% {
+    background-position: 91% 100%;
+  }
+  100% {
+    background-position: 10% 0%;
+  }
+}
+@-moz-keyframes bganim {
+  0% {
+    background-position: 10% 0%;
+  }
+  50% {
+    background-position: 91% 100%;
+  }
+  100% {
+    background-position: 10% 0%;
+  }
+}
+@-o-keyframes bganim {
+  0% {
+    background-position: 10% 0%;
+  }
+  50% {
+    background-position: 91% 100%;
+  }
+  100% {
+    background-position: 10% 0%;
+  }
+}
+@keyframes bganim {
+  0% {
+    background-position: 10% 0%;
+  }
+  50% {
+    background-position: 91% 100%;
+  }
+  100% {
+    background-position: 10% 0%;
+  }
+}
