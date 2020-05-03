@@ -24,11 +24,3 @@
 }
 
 /* End of font definitions */
-
-body {
-  margin: 0;
-  font-family: Comfortaa-Regular, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
-    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}

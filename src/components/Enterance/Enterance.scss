@@ -1,0 +1,33 @@
+.enterance {
+  width: 100%;
+  margin: 0 auto;
+  height: calc(100vh - 60px);
+  padding: 40px;
+  background: no-repeat center right fixed
+    url('../../static/images/girlwithumbrella.jpg');
+  background-size: cover;
+  margin-bottom: 0px;
+  padding: 0px;
+  opacity: 0.8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .enterance__introduction {
+    width: inherit;
+    height: 100px;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+
+    .enterance__introduction__title {
+      font-size: 20px;
+      font-weight: 300;
+    }
+
+    hr {
+      width: 40%;
+      opacity: 0.3;
+    }
+  }
+}

@@ -15,11 +15,11 @@ const Header: React.FC<IHeader> = ({ titles }) => {
         return (
           <button className='header__title' key={index}>
             <Link
-              activeClass='active'
+              activeClass='header__title--active'
               to={title.id}
               spy={true}
               smooth={true}
-              offset={-70}
+              offset={-60}
               duration={500}>
               {title.title}
             </Link>
