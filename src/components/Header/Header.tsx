@@ -17,10 +17,10 @@ const Header: React.FC<IHeader> = ({ titles }) => {
             <Link
               activeClass='header__title--active'
               to={title.id}
-              spy={true}
-              smooth={true}
-              offset={-60}
-              duration={500}>
+              spy
+              smooth
+              offset={title.offset}
+              delay={200}>
               {title.title}
             </Link>
           </button>

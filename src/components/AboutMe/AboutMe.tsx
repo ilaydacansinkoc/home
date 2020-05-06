@@ -52,7 +52,11 @@ const AboutMe: React.FC<{}> = () => {
               onClick={() =>
                 window.open('https://linkedin.com/in/ilaydacansinkoc')
               }
-              style={{ textTransform: 'none', marginRight: '10px' }}
+              style={{
+                textTransform: 'none',
+                marginRight: '10px',
+                backgroundColor: '#0077B5',
+              }}
               startIcon={<LinkedInIcon />}>
               {`LinkedIn`}
             </Button>

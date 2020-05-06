@@ -8,6 +8,7 @@ interface IProps {
   explanation: string;
   logo: string;
   utilised?: string[] | undefined;
+  logoDesc?: string;
 }
 const Experience: React.FC<IProps> = ({
   duration,
@@ -16,6 +17,7 @@ const Experience: React.FC<IProps> = ({
   explanation,
   logo,
   utilised,
+  logoDesc,
 }) => {
   return (
     <div className='experience'>
@@ -29,8 +31,14 @@ const Experience: React.FC<IProps> = ({
           </div>
           <div
             className='experience__location__logo'
-            onClick={() => window.open('https://www.teb.com.tr')}>
-            <img src={logo} alt='teb' />
+            onClick={() => {
+              if (logoDesc === 'iyte') {
+                window.open('https://en.iyte.edu.tr/');
+              } else {
+                window.open('https://www.teb.com.tr');
+              }
+            }}>
+            <img src={logo} alt='logo' style={{ width: '100%' }} />
           </div>
         </div>
         <div className='experience__detail'>

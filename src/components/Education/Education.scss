@@ -2,5 +2,19 @@
   width: 100%;
   margin: 0 auto;
   height: 100vh;
-  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+
+  .education__content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    .education__title {
+      font-size: 40px;
+      letter-spacing: 1px;
+      color: #444b48;
+      margin-bottom: 40px;
+    }
+  }
 }

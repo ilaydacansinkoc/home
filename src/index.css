@@ -12,6 +12,18 @@
 }
 
 @font-face {
+  font-family: 'Montserrat-Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat-Regular'),
+    url('./static/fonts/Montserrat-Regular.woff2') format('woff2'),
+    url('./static/fonts/Montserrat-Regular.woff') format('woff'),
+    url('./static/fonts/Montserrat-Regular.ttf') format('ttf'),
+    url('./static/fonts/Montserrat-Regular.eot') format('eot');
+  unicode-range: U+000-5FF; /* Latin glyphs */
+}
+
+@font-face {
   font-family: 'AnnieUseYourTelescope-Regular';
   font-style: normal;
   font-weight: 400;
