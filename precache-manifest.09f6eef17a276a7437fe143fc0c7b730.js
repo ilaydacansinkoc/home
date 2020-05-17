@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9bc48a2a5066edf1a3c31b7105e36275",
+    "revision": "5e9fede89c2317c1a98b8f3700ecd81a",
     "url": "/home/index.html"
   },
   {
-    "revision": "2f7798635493e0e39d6e",
-    "url": "/home/static/css/main.b7c946a4.chunk.css"
+    "revision": "69ef883007c2b4144cd7",
+    "url": "/home/static/css/main.653a2ccd.chunk.css"
   },
   {
     "revision": "242fd22fa8c512837505",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/home/static/js/2.1429fef4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2f7798635493e0e39d6e",
-    "url": "/home/static/js/main.a33031f9.chunk.js"
+    "revision": "69ef883007c2b4144cd7",
+    "url": "/home/static/js/main.82830659.chunk.js"
   },
   {
     "revision": "e27c0f90f1286344ecc1",
@@ -72,10 +72,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/home/static/media/Montserrat-Regular.ee653992.ttf"
   },
   {
-    "revision": "1d43fc524f01f4df6b892bc92671dee7",
-    "url": "/home/static/media/girlwithumbrella.1d43fc52.jpg"
-  },
-  {
     "revision": "1599976c0b61bcc4fc4fc5f09a9acaba",
     "url": "/home/static/media/githıb.1599976c.jpg"
   },
@@ -86,5 +82,13 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e9bc5b06b633170405b0ef3b5567c9ad",
     "url": "/home/static/media/iyte.e9bc5b06.png"
+  },
+  {
+    "revision": "80829fff607f51f103f80bdab67ff21d",
+    "url": "/home/static/media/mariobg.80829fff.png"
+  },
+  {
+    "revision": "617e958575c3606de7692ada5b613072",
+    "url": "/home/static/media/marioground.617e9585.jpg"
   }
 ]);
