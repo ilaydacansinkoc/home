@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/home/static/css/main.54cdc35a.chunk.css",
-    "main.js": "/home/static/js/main.1347ba94.chunk.js",
-    "main.js.map": "/home/static/js/main.1347ba94.chunk.js.map",
+    "main.css": "/home/static/css/main.b7c946a4.chunk.css",
+    "main.js": "/home/static/js/main.a33031f9.chunk.js",
+    "main.js.map": "/home/static/js/main.a33031f9.chunk.js.map",
     "runtime-main.js": "/home/static/js/runtime-main.64cdd66f.js",
     "runtime-main.js.map": "/home/static/js/runtime-main.64cdd66f.js.map",
-    "static/css/2.5bc4965f.chunk.css": "/home/static/css/2.5bc4965f.chunk.css",
-    "static/js/2.147af0a0.chunk.js": "/home/static/js/2.147af0a0.chunk.js",
-    "static/js/2.147af0a0.chunk.js.map": "/home/static/js/2.147af0a0.chunk.js.map",
+    "static/js/2.1429fef4.chunk.js": "/home/static/js/2.1429fef4.chunk.js",
+    "static/js/2.1429fef4.chunk.js.map": "/home/static/js/2.1429fef4.chunk.js.map",
     "index.html": "/home/index.html",
-    "precache-manifest.332a6e3eeeaa78cc8f3d1325763ee60c.js": "/home/precache-manifest.332a6e3eeeaa78cc8f3d1325763ee60c.js",
+    "precache-manifest.5dd85a83008c02dfb98e0775ede3d8e8.js": "/home/precache-manifest.5dd85a83008c02dfb98e0775ede3d8e8.js",
     "service-worker.js": "/home/service-worker.js",
-    "static/css/2.5bc4965f.chunk.css.map": "/home/static/css/2.5bc4965f.chunk.css.map",
-    "static/css/main.54cdc35a.chunk.css.map": "/home/static/css/main.54cdc35a.chunk.css.map",
-    "static/js/2.147af0a0.chunk.js.LICENSE.txt": "/home/static/js/2.147af0a0.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/home/static/media/Comfortaa-Regular.ec2d73a1.ttf"
+    "static/css/main.b7c946a4.chunk.css.map": "/home/static/css/main.b7c946a4.chunk.css.map",
+    "static/js/2.1429fef4.chunk.js.LICENSE.txt": "/home/static/js/2.1429fef4.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/home/static/media/Montserrat-Regular.ee653992.ttf",
+    "static/media/Enterance.scss": "/home/static/media/girlwithumbrella.1d43fc52.jpg",
+    "static/media/AboutMe.scss": "/home/static/media/githıb.1599976c.jpg",
+    "static/media/gmail.png": "/home/static/media/gmail.ff344fd3.png",
+    "static/media/iyte.png": "/home/static/media/iyte.e9bc5b06.png"
   },
   "entrypoints": [
     "static/js/runtime-main.64cdd66f.js",
-    "static/css/2.5bc4965f.chunk.css",
-    "static/js/2.147af0a0.chunk.js",
-    "static/css/main.54cdc35a.chunk.css",
-    "static/js/main.1347ba94.chunk.js"
+    "static/js/2.1429fef4.chunk.js",
+    "static/css/main.b7c946a4.chunk.css",
+    "static/js/main.a33031f9.chunk.js"
   ]
 }
