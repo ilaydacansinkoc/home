@@ -1,46 +1,56 @@
-import React from 'react';
-import './Contact.scss';
-import MailIcon from '@material-ui/icons/Mail';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import GitHubIcon from '@material-ui/icons/GitHub';
-import { IconButton } from '@material-ui/core';
+import React from "react";
+import "./Contact.scss";
+import github from "../../static/images/github.png";
+import linkedin from "../../static/images/linkedin.png";
+import gmail from "../../static/images/gmail.png";
 
 const Contact: React.FC<{}> = () => {
   return (
-    <div className='contact' id='contact'>
-      <div className='contact-container'>
-        <div className='contact-container__contact-me'>{`Contact Me`}</div>
+    <div className="contact" id="contact">
+      <div className="contact-container">
+        <div className="contact-container__contact-me">
+          <div>
+            {`Contact Me `}
+            <span
+              role="img"
+              aria-label="skills"
+              style={{ fontStyle: "normal" }}
+            >
+              ☎️
+            </span>
+          </div>
+          <div style={{ fontSize: "14px" }}>
+            Let's connect. I prefer{" "}
+            <a href="https://www.linkedin.com/in/ilaydacansinkoc">
+              LinkedIn DM's
+            </a>{" "}
+            and <a href="mailto:ilaydacansin@gmail.com">Gmail</a> messages.
+          </div>
+        </div>
         <hr />
-        <div>
-          <div className='contact-container__communicaion'>
-            <a href='mailto:ilaydacansin@gmail.com'>
-              <IconButton color='primary' aria-label='mail'>
-                <MailIcon />
-              </IconButton>
+        <div className="contact-container__icons">
+          <div className="contact-container__communicaion">
+            <a href="mailto:ilaydacansin@gmail.com">
+              <img alt="gmail" src={gmail} />
             </a>
-            {`ilaydacansin@gmail.com`}
           </div>
-          <div className='contact-container__communicaion'>
-            <IconButton
-              color='primary'
-              aria-label='mail'
+          <div className="contact-container__communicaion">
+            <img
+              alt="linkedin"
+              src={linkedin}
               onClick={() =>
-                window.open('https://www.linkedin.com/in/ilaydacansinkoc')
-              }>
-              <LinkedInIcon />
-            </IconButton>
-            {`https://www.linkedin.com/in/ilaydacansinkoc`}
+                window.open("https://www.linkedin.com/in/ilaydacansinkoc")
+              }
+            />
           </div>
-          <div className='contact-container__communicaion'>
-            <IconButton
-              color='primary'
-              aria-label='mail'
+          <div className="contact-container__communicaion">
+            <img
+              alt="github"
+              src={github}
               onClick={() =>
-                window.open('https://www.github.com/ilaydacansinkoc')
-              }>
-              <GitHubIcon />
-            </IconButton>
-            {`https://www.github.com/ilaydacansinkoc`}
+                window.open("https://www.github.com/ilaydacansinkoc")
+              }
+            />
           </div>
         </div>
         <hr />
